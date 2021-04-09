@@ -2,6 +2,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "types": ["node"],
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
@@ -14,7 +15,7 @@
     "module": "es2020",
     "lib": [
       "es2018",
-      "dom"
+      "dom",
     ]
   },
   "angularCompilerOptions": {

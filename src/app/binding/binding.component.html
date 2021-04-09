@@ -1,0 +1,5 @@
+<h1 [attr.href] = "'#123'" class="hello" [class.active__name]="true" [style.color]="'red'">this is binding...</h1>
+<input type="text" bind-name = "'something' + 5"/>
+
+<h2>{{count}}</h2>
+<button on-click="increase($event)" [disabled] = "count === 5" [style.backgroundColor] = "count % 2 == 0 ? 'red' : 'blue'">Increase</button>
